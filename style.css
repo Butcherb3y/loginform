@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #131034;
+}
+
+.signup-form {
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    background: url(yıldız.jpg);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+
+.signup-form h1 {
+    margin-top: 100px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+.signup-form input {
+    display: block;
+    width: 100%;
+    padding: 0 16px;
+    height: 45px;
+    text-align: center;
+    box-sizing: border-box;
+    border: none;
+}
+
+.txt {
+    margin: 20px 0;
+    border-radius: 25px;
+}
+
+.btn {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background-color: #538fef;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.8s;
+    display: block;
+}
+
+.btn:hover {
+    transform: scale(0.96);
+    background: #ffff;
+    color: #538fef;
+}
+
+.signup-form a{
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    transition: 0.5s;
+    padding: 15px;
+    display: block;
+    font-weight: bold;
+}
+
+.signup-form a:hover{
+    color: yellow;
+    
+}
